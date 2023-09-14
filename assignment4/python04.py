@@ -10,9 +10,8 @@ def display_elements(mylist):
         if element.isdigit():
             print(f"{element} " * 3)
         else:
-            # If it's not a number, display it with a '#' appended
             print(f"{element}#")
 
-# Example usage:
+
 mylist = ['41', 'DROND', 'Sunbeam', '13', 'ZARA']
 display_elements(mylist)
